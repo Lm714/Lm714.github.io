@@ -4,7 +4,13 @@
   <meta charset="utf-8">
   
   
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in ">
+  <meta name="description" content="简介用“*”输出菱形
+思路1.把菱形分为上下两部分（上4行下3行）
+2. i 控制循环次数， j 控制空格数， k 控制“*”的个数
+3. 第一行3个空格，第二行2个空格...（n=4，j=n-1)
+   第一行1个“*” ，第二行3个“*”...（k=2*i-1)
+4. 下3行：   
+代码#in">
   
 
   
@@ -13,19 +19,20 @@
   
   
   
-  <title>Hello World | Lm</title>
+  <title>c语言输出菱形图案 | Lm</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="简介用“*”输出菱形 思路1.把菱形分为上下两部分（上4行下3行） 2. i 控制循环次数， j 控制空格数， k 控制“*”的个数 3. 第一行3个空格，第二行2个空格...（n=4，j=n-1)    第一行1个“*” ，第二行3个“*”...（k=2*i-1) 4. 下3行：    代码#include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; in">
+<meta name="keywords" content="c">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2019/04/06/hello-world/index.html">
+<meta property="og:title" content="c语言输出菱形图案">
+<meta property="og:url" content="http://yoursite.com/2019/04/14/c语言输出菱形图案/index.html">
 <meta property="og:site_name" content="Lm">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="简介用“*”输出菱形 思路1.把菱形分为上下两部分（上4行下3行） 2. i 控制循环次数， j 控制空格数， k 控制“*”的个数 3. 第一行3个空格，第二行2个空格...（n=4，j=n-1)    第一行1个“*” ，第二行3个“*”...（k=2*i-1) 4. 下3行：    代码#include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; in">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-04-06T08:33:07.134Z">
+<meta property="og:updated_time" content="2019-04-14T15:33:47.913Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="c语言输出菱形图案">
+<meta name="twitter:description" content="简介用“*”输出菱形 思路1.把菱形分为上下两部分（上4行下3行） 2. i 控制循环次数， j 控制空格数， k 控制“*”的个数 3. 第一行3个空格，第二行2个空格...（n=4，j=n-1)    第一行1个“*” ，第二行3个“*”...（k=2*i-1) 4. 下3行：    代码#include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; in">
   
   
     <link rel="icon" href="/css/images/favicon.ico">
@@ -66,7 +73,7 @@
 </header>
 
       <div id="main" class="wrapper">
-        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-hello-world" class="post-hello-world post type-post status-publish format-standard hentry">
+        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-c语言输出菱形图案" class="post-c语言输出菱形图案 post type-post status-publish format-standard hentry">
     <!---->
 
       <header class="entry-header">
@@ -74,40 +81,44 @@
         
   
     <h1 class="entry-title article-title">
-      Hello World
+      c语言输出菱形图案
     </h1>
   
 
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/04/06/hello-world/" data-id="cjuh3br520001bwuw0vi9v0u7" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/04/14/c语言输出菱形图案/" data-id="cjuh3br460000bwuwalpegm6f" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
     <div class="entry-content">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><pre><code>用“*”输出菱形
+</code></pre><h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><pre><code>1.把菱形分为上下两部分（上4行下3行）
+2. i 控制循环次数， j 控制空格数， k 控制“*”的个数
+3. 第一行3个空格，第二行2个空格...（n=4，j=n-1)
+   第一行1个“*” ，第二行3个“*”...（k=2*i-1)
+4. 下3行：   
+</code></pre><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>#include &lt;stdio.h&gt;</p>
+<p>#include &lt;stdlib.h&gt;</p>
+<p>int main()<br>{<br>    int i,j,k,n=4;<br>for(i=1;i&lt;=n;i++)<br>{<br>    for(j=n-1;j&gt;=i;j–)<br>   {<br>       printf(“ “);<br>   }<br>   for(k=1;k&lt;=2<em>i-1;k++)<br>   {<br>       printf(“</em>“);<br>   }<br>   printf(“\n”);<br>}</p>
+<p>for(i=n-1;i&gt;=1;i–)<br>{<br>    for(j=i;j&lt;=n-1;j++)<br>    {<br>        printf(“ “);<br>    }<br>    for(k=1;k&lt;=2<em>i-1;k++)<br>    {<br>        printf(“</em>“);<br>    }<br>    printf(“\n”);<br>}<br>    return 0;<br>}</p>
 
       
     </div><!-- .entry-content -->
 
     <footer class="entry-meta">
-    <a href="/2019/04/06/hello-world/">
-    <time datetime="2019-04-06T08:33:07.134Z" class="entry-date">
-        2019-04-06
+    <a href="/2019/04/14/c语言输出菱形图案/">
+    <time datetime="2019-04-14T14:43:02.000Z" class="entry-date">
+        2019-04-14
     </time>
 </a>
     
     
+  <span class="article-delim">&#8226;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/c/">c</a></li></ul>
+
     </footer>
 </article>
 
@@ -116,8 +127,8 @@
 <nav class="nav-single">
     <h3 class="assistive-text">文章导航</h3>
     
-        <span class="nav-previous"><a href="/2019/04/06/c语言实现水仙花数的输出/" rel="prev"><span class="meta-nav">←</span> c语言实现水仙花数的输出</a></span>
     
+        <span class="nav-next"><a href="/2019/04/09/正三角形/" rel="next">正三角形 <span class="meta-nav">→</span></a></span>
     
 </nav><!-- .nav-single -->
 

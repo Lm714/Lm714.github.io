@@ -62,6 +62,61 @@
       <div id="main" class="wrapper">
         <div id="primary" class="site-content"><div id="content" role="main">
   
+    <article id="post-c语言输出菱形图案" class="post-c语言输出菱形图案 post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title">
+      <a class="article-title" href="/2019/04/14/c语言输出菱形图案/">c语言输出菱形图案</a>
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/04/14/c语言输出菱形图案/" data-id="cjuh3br460000bwuwalpegm6f" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><pre><code>用“*”输出菱形
+</code></pre><h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><pre><code>1.把菱形分为上下两部分（上4行下3行）
+2. i 控制循环次数， j 控制空格数， k 控制“*”的个数
+3. 第一行3个空格，第二行2个空格...（n=4，j=n-1)
+   第一行1个“*” ，第二行3个“*”...（k=2*i-1)
+4. 下3行：   
+</code></pre><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>#include &lt;stdio.h&gt;</p>
+<p>#include &lt;stdlib.h&gt;</p>
+<p>int main()<br>{<br>    int i,j,k,n=4;<br>for(i=1;i&lt;=n;i++)<br>{<br>    for(j=n-1;j&gt;=i;j–)<br>   {<br>       printf(“ “);<br>   }<br>   for(k=1;k&lt;=2<em>i-1;k++)<br>   {<br>       printf(“</em>“);<br>   }<br>   printf(“\n”);<br>}</p>
+<p>for(i=n-1;i&gt;=1;i–)<br>{<br>    for(j=i;j&lt;=n-1;j++)<br>    {<br>        printf(“ “);<br>    }<br>    for(k=1;k&lt;=2<em>i-1;k++)<br>    {<br>        printf(“</em>“);<br>    }<br>    printf(“\n”);<br>}<br>    return 0;<br>}</p>
+
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/2019/04/14/c语言输出菱形图案/">
+    <time datetime="2019-04-14T14:43:02.000Z" class="entry-date">
+        2019-04-14
+    </time>
+</a>
+    
+    
+  <span class="article-delim">&#8226;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/c/">c</a></li></ul>
+
+    </footer>
+</article>
+
+
+
+
+
+
+  
     <article id="post-正三角形" class="post-正三角形 post type-post status-publish format-standard hentry">
     <!---->
 
@@ -77,7 +132,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/04/09/正三角形/" data-id="cju9y17v10004qouw5r9cim0s" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/04/09/正三角形/" data-id="cjuh3br6s0005bwuwklni8t58" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -140,7 +195,7 @@ return 0;
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/04/06/数学题/" data-id="cju9y17ur0003qouwzj9xuj4v" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/04/06/数学题/" data-id="cjuh3br6c0004bwuw8rwp0fn4" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -214,7 +269,7 @@ for(int i=1;i&lt;=100;i++)
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/04/06/c语言实现水仙花数的输出/" data-id="cju9y17sw0000qouwf66tgzgb" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/04/06/c语言实现水仙花数的输出/" data-id="cjuh3br5x0003bwuwueq61n1i" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -268,7 +323,7 @@ for(int i=1;i&lt;=100;i++)
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/04/06/hello-world/" data-id="cju9y17tn0001qouwjvbfs9dy" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/04/06/hello-world/" data-id="cjuh3br520001bwuw0vi9v0u7" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -327,6 +382,10 @@ for(int i=1;i&lt;=100;i++)
       <ul>
         
           <li>
+            <a href="/2019/04/14/c语言输出菱形图案/">c语言输出菱形图案</a>
+          </li>
+        
+          <li>
             <a href="/2019/04/09/正三角形/">正三角形</a>
           </li>
         
@@ -351,7 +410,7 @@ for(int i=1;i&lt;=100;i++)
   <aside class="widget">
     <h3 class="widget-title">Tags</h3>
     <div class="widget-content">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/c/">c</a><span class="tag-list-count">2</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/c/">c</a><span class="tag-list-count">3</span></li></ul>
     </div>
   </aside>
 
