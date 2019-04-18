@@ -10,7 +10,7 @@
 3. 第一行3个空格，第二行2个空格...（n=4，j=n-1)
    第一行1个“*” ，第二行3个“*”...（k=2*i-1)
 4. 下3行：   
-代码#in">
+代码  #">
   
 
   
@@ -21,18 +21,18 @@
   
   <title>c语言输出菱形图案 | Lm</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="简介用“*”输出菱形 思路1.把菱形分为上下两部分（上4行下3行） 2. i 控制循环次数， j 控制空格数， k 控制“*”的个数 3. 第一行3个空格，第二行2个空格...（n=4，j=n-1)    第一行1个“*” ，第二行3个“*”...（k=2*i-1) 4. 下3行：    代码#include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; in">
+  <meta name="description" content="简介用“*”输出菱形 思路1.把菱形分为上下两部分（上4行下3行） 2. i 控制循环次数， j 控制空格数， k 控制“*”的个数 3. 第一行3个空格，第二行2个空格...（n=4，j=n-1)    第一行1个“*” ，第二行3个“*”...（k=2*i-1) 4. 下3行：    代码  #include &amp;lt;stdio.h&amp;gt;   #include &amp;lt;stdlib.h&amp;gt">
 <meta name="keywords" content="c">
 <meta property="og:type" content="article">
 <meta property="og:title" content="c语言输出菱形图案">
 <meta property="og:url" content="http://yoursite.com/2019/04/14/c语言输出菱形图案/index.html">
 <meta property="og:site_name" content="Lm">
-<meta property="og:description" content="简介用“*”输出菱形 思路1.把菱形分为上下两部分（上4行下3行） 2. i 控制循环次数， j 控制空格数， k 控制“*”的个数 3. 第一行3个空格，第二行2个空格...（n=4，j=n-1)    第一行1个“*” ，第二行3个“*”...（k=2*i-1) 4. 下3行：    代码#include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; in">
+<meta property="og:description" content="简介用“*”输出菱形 思路1.把菱形分为上下两部分（上4行下3行） 2. i 控制循环次数， j 控制空格数， k 控制“*”的个数 3. 第一行3个空格，第二行2个空格...（n=4，j=n-1)    第一行1个“*” ，第二行3个“*”...（k=2*i-1) 4. 下3行：    代码  #include &amp;lt;stdio.h&amp;gt;   #include &amp;lt;stdlib.h&amp;gt">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-04-14T15:33:47.913Z">
+<meta property="og:updated_time" content="2019-04-14T15:35:52.553Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="c语言输出菱形图案">
-<meta name="twitter:description" content="简介用“*”输出菱形 思路1.把菱形分为上下两部分（上4行下3行） 2. i 控制循环次数， j 控制空格数， k 控制“*”的个数 3. 第一行3个空格，第二行2个空格...（n=4，j=n-1)    第一行1个“*” ，第二行3个“*”...（k=2*i-1) 4. 下3行：    代码#include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; in">
+<meta name="twitter:description" content="简介用“*”输出菱形 思路1.把菱形分为上下两部分（上4行下3行） 2. i 控制循环次数， j 控制空格数， k 控制“*”的个数 3. 第一行3个空格，第二行2个空格...（n=4，j=n-1)    第一行1个“*” ，第二行3个“*”...（k=2*i-1) 4. 下3行：    代码  #include &amp;lt;stdio.h&amp;gt;   #include &amp;lt;stdlib.h&amp;gt">
   
   
     <link rel="icon" href="/css/images/favicon.ico">
@@ -88,7 +88,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/04/14/c语言输出菱形图案/" data-id="cjuh3br460000bwuwalpegm6f" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/04/14/c语言输出菱形图案/" data-id="cjumsenm80001oouwf6gjqdlu" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -100,10 +100,10 @@
 3. 第一行3个空格，第二行2个空格...（n=4，j=n-1)
    第一行1个“*” ，第二行3个“*”...（k=2*i-1)
 4. 下3行：   
-</code></pre><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>#include &lt;stdio.h&gt;</p>
-<p>#include &lt;stdlib.h&gt;</p>
-<p>int main()<br>{<br>    int i,j,k,n=4;<br>for(i=1;i&lt;=n;i++)<br>{<br>    for(j=n-1;j&gt;=i;j–)<br>   {<br>       printf(“ “);<br>   }<br>   for(k=1;k&lt;=2<em>i-1;k++)<br>   {<br>       printf(“</em>“);<br>   }<br>   printf(“\n”);<br>}</p>
-<p>for(i=n-1;i&gt;=1;i–)<br>{<br>    for(j=i;j&lt;=n-1;j++)<br>    {<br>        printf(“ “);<br>    }<br>    for(k=1;k&lt;=2<em>i-1;k++)<br>    {<br>        printf(“</em>“);<br>    }<br>    printf(“\n”);<br>}<br>    return 0;<br>}</p>
+</code></pre><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>  #include &lt;stdio.h&gt;</p>
+<p>  #include &lt;stdlib.h&gt;</p>
+<p>  int main()<br>  {<br>    int i,j,k,n=4;<br>   for(i=1;i&lt;=n;i++)<br>  {<br>    for(j=n-1;j&gt;=i;j–)<br>   {<br>       printf(“ “);<br>   }<br>   for(k=1;k&lt;=2<em>i-1;k++)<br>   {<br>       printf(“</em>“);<br>   }<br>   printf(“\n”);<br>  }</p>
+<p>  for(i=n-1;i&gt;=1;i–)<br>  {<br>    for(j=i;j&lt;=n-1;j++)<br>    {<br>        printf(“ “);<br>    }<br>    for(k=1;k&lt;=2<em>i-1;k++)<br>    {<br>        printf(“</em>“);<br>    }<br>    printf(“\n”);<br>  }<br>     return 0;<br>  }</p>
 
       
     </div><!-- .entry-content -->
